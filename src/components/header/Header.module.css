@@ -1,0 +1,38 @@
+.topmost-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.2rem 3rem;
+  background-color: rgb(26, 26, 175);
+  color: var(--color-grey-100);
+}
+
+.lowermost-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+  background-color: #fff;
+}
+
+.list-container {
+  display: flex;
+  list-style: none;
+  gap: 0.8rem;
+}
+
+.company-icon {
+  font-size: 1.5rem;
+  font-family: Geneva, Verdana, sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 100;
+}
+
+.search-icon {
+  color: blue;
+}
+.bar-icon {
+  color: blue;
+}
+
+.topmost-info {
+  font-size: 0.7rem;
+}
