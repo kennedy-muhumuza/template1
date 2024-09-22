@@ -1,0 +1,31 @@
+.about-container {
+  margin-top: 10rem;
+  display: flex;
+  gap: 2rem;
+  padding: 1rem 3rem;
+}
+
+.group-images {
+  position: relative;
+  width: 50%;
+}
+
+.group-image2 {
+  position: absolute;
+  width: 35rem;
+  height: auto;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  border-radius: 1rem;
+}
+
+.group-image1 {
+  position: absolute;
+  width: 29rem;
+  height: auto;
+  z-index: 20;
+  top: 15rem;
+  left: 10rem;
+  border-radius: 1rem;
+}

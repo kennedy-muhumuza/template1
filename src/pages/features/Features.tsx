@@ -57,6 +57,18 @@ const Features = () => {
           </p>
           <div className={styles["lowerbar"]}></div>
         </div>
+        <div className={styles["card"]}>
+          <div className={styles["icon-number-container"]}>
+            <div className={styles["card-icon"]}></div>
+            <p className={styles["card-number"]}>05</p>
+          </div>
+          <h3>Trusted Company</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+            quia ipsa provident atque!
+          </p>
+          <div className={styles["lowerbar"]}></div>
+        </div>
       </div>
     </section>
   );
