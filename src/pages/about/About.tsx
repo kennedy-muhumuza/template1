@@ -6,16 +6,27 @@ const About = () => {
       <div className={styles["group-images"]}>
         <img alt="" src="./group1.jpg" className={styles["group-image2"]} />
         <img alt="" src="./handshake.jpg" className={styles["group-image1"]} />
+        <div className={styles["experience-container"]}>
+          <span className={styles["experience-figure"]}>12+</span>
+          <p className={styles["experience-msg"]}>
+            We have more than years of experience
+          </p>
+        </div>
       </div>
-      <div>
-        <p>About Our Company</p>
-        <h1>We Provide Best Insurance Policy for Any Purpose</h1>
-        <p>
+      <div className={styles["about-info-container"]}>
+        <div className={styles["about-title-container"]}>
+          <span className={styles["about-title-icon"]}></span>
+          <p className={styles["about-title"]}>About Our Company</p>
+        </div>
+        <h1 className={styles["about-msg"]}>
+          We Provide Best Insurance Policy for Any Purpose
+        </h1>
+        <p className={styles["about-details-msg"]}>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo,
-          reiciendis debitis <br /> quasi ipsa accusantium asperiores nesciunt
-          ut reprehenderit deserunt sit corrupti sunt!
+          reiciendis debitis quasi ipsa accusantium asperiores nesciunt ut
+          reprehenderit corrupti sunt!
         </p>
-        <div>
+        <div className={styles["about-details-list-container"]}>
           <div className={styles["aspect-container"]}>
             <div className={styles["aspect"]}>
               <span></span>
@@ -57,6 +68,7 @@ const About = () => {
             </div>
           </div>
         </div>
+        <button className={styles["readmore-btn"]}>READ MORE</button>
       </div>
     </section>
   );
